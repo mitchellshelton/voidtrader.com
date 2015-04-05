@@ -26,16 +26,6 @@
 
 <main id="main" class="main">
 
-  <aside id="sidebar" class="sidebar">
-    <div class="navigation">
-      <ul class="navigation-list">
-        <li class="navigation-item"><a class="navigation-link" href="#home">Section One</a></li>
-        <li class="navigation-item"><a class="navigation-link" href="#article-two">Section Two</a></li>
-        <li class="navigation-item"><a class="navigation-link" href="#article-three">Section Three</a></li>
-      </ul>
-    </div>
-  </aside>
-
   <article id="article-one" class="article-one article">
     <div class="article-content-container">
       <div class="article-content">

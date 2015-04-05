@@ -522,10 +522,12 @@ body {
     width: 64em; }
 
 .article-content {
-  max-width: 43.75em;
   padding: 0.5em 3em;
   border: 2px solid #d9d9d9;
   border-radius: 0.5em;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 43.75em;
   background-color: rgba(0, 0, 0, 0.8); }
 
 .article-title {
@@ -563,42 +565,6 @@ body {
 .article-three {
   padding-top: 4em;
   background-image: url("../images/article-bg-03.jpg"); }
-
-.sidebar {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 64em; }
-  .no-mediaqueries .sidebar {
-    width: 64em; }
-
-.navigation {
-  position: fixed;
-  top: 7em;
-  float: right;
-  left: 64.5em; }
-
-.navigation-list {
-  margin: 0;
-  padding: 0; }
-
-.navigation-item {
-  list-style-type: none;
-  margin-bottom: 5px; }
-
-.navigation-link {
-  display: block;
-  border-bottom: 5px solid #297ca6;
-  border-radius: 0.5em;
-  color: #ffffff;
-  background-color: #308fbf;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 0.1em 2.3em; }
-  .navigation-link:hover {
-    background-color: #297ca6;
-    border-top: 3px solid #297ca6;
-    border-bottom: 2.5px solid #297ca6; }
 
 .footer {
   background-color: #efefef;
