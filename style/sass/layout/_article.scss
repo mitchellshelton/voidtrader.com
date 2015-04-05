@@ -2,13 +2,16 @@
   color: $c-white;
 }
 
+.article-content-container {
+  @include stagecenter();
+  padding: 3em 0;
+}
+
 .article-content {
+  max-width: 43.75em;
   padding: 0.5em 3em;
   border: 2px solid $c-grey;
   border-radius: 0.5em;
-  margin: 3em auto 3em px-to-em(200);
-  width: 100%;
-  max-width: 43.75em;
   background-color: rgba($c-black, 0.8);
 }
 
@@ -30,4 +33,22 @@
 .article-divider {
   background-color: $c-black;
   padding: 3em;
+}
+
+.article-one {
+  background-image: url('../images/article-bg-01.jpg');
+}
+
+.article-two {
+  background-image: url('../images/article-bg-02.jpg');
+}
+
+.article-three {
+  background-image: url('../images/article-bg-03.jpg');
+}
+
+.article-one,
+.article-two,
+.article-three {
+  background-size: cover;
 }

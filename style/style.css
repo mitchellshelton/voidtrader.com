@@ -485,18 +485,24 @@ body {
 html,
 body {
   height: 100%;
-  padding-top: 2.5em; }
+  padding-top: 2em; }
 
 .article {
   color: #ffffff; }
 
+.article-content-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 64em;
+  padding: 3em 0; }
+  .no-mediaqueries .article-content-container {
+    width: 64em; }
+
 .article-content {
+  max-width: 43.75em;
   padding: 0.5em 3em;
   border: 2px solid #d9d9d9;
   border-radius: 0.5em;
-  margin: 3em auto 3em 12.5em;
-  width: 100%;
-  max-width: 43.75em;
   background-color: rgba(0, 0, 0, 0.8); }
 
 .article-title {
@@ -515,6 +521,20 @@ body {
   background-color: #000000;
   padding: 3em; }
 
+.article-one {
+  background-image: url("../images/article-bg-01.jpg"); }
+
+.article-two {
+  background-image: url("../images/article-bg-02.jpg"); }
+
+.article-three {
+  background-image: url("../images/article-bg-03.jpg"); }
+
+.article-one,
+.article-two,
+.article-three {
+  background-size: cover; }
+
 .sidebar {
   margin: 0 auto;
   width: 100%;
@@ -524,7 +544,7 @@ body {
 
 .navigation {
   position: fixed;
-  top: 8em;
+  top: 7em;
   float: right;
   left: 64.5em; }
 
