@@ -10,10 +10,17 @@
 <body>
 
 <a href="#main" class="skip-link" id="skip-to-main">Skip to main content</a>
-
+<div id="home"></div>
 <header id="header" class="header">
   <div class="header-content">
     <h1 class="site-title"><a class="site-title-link" href="#home">Void Trader</a></h1>
+    <div class="header-navigation">
+      <ul class="header-navigation-list">
+        <li class="header-navigation-item"><a class="header-navigation-link" href="#home">Section One</a></li>
+        <li class="header-navigation-item"><a class="header-navigation-link" href="#article-two">Section Two</a></li>
+        <li class="header-navigation-item"><a class="header-navigation-link" href="#article-three">Section Three</a></li>
+      </ul>
+    </div>
   </div>
 </header>
 
@@ -22,18 +29,27 @@
   <aside id="sidebar" class="sidebar">
     <div class="navigation">
       <ul class="navigation-list">
-        <li class="navigation-item"><a class="navigation-link" href="#">Section One</a></li>
-        <li class="navigation-item"><a class="navigation-link" href="#">Section Two</a></li>
-        <li class="navigation-item"><a class="navigation-link" href="#">Section Three</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="#home">Section One</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="#article-two">Section Two</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="#article-three">Section Three</a></li>
       </ul>
     </div>
   </aside>
 
-  <article class="article-one article">
+  <article id="article-one" class="article-one article">
     <div class="article-content-container">
       <div class="article-content">
         <h2 class="article-title">Article One Title</h2>
         <div class="article-text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
+          </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
           </p>
@@ -44,7 +60,7 @@
 
   <div class="article-divider"></div>
 
-  <article class="article-two article">
+  <article id="article-two" class="article-two article">
     <div class="article-content-container">
       <div class="article-content">
         <h2 class="article-title">Article Two Title</h2>
@@ -59,11 +75,35 @@
 
   <div class="article-divider"></div>
 
-  <article class="article-three article">
+  <article id="article-three" class="article-three article">
     <div class="article-content-container">
       <div class="article-content">
         <h2 class="article-title">Article Three Title</h2>
         <div class="article-text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
+          </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
           </p>

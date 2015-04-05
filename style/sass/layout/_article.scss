@@ -32,7 +32,17 @@
 
 .article-divider {
   background-color: $c-black;
-  padding: 3em;
+  padding: 1em;
+}
+
+.article-one,
+.article-two,
+.article-three {
+  @include transition();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
 }
 
 .article-one {
@@ -40,15 +50,12 @@
 }
 
 .article-two {
+  padding-top: 4em;
   background-image: url('../images/article-bg-02.jpg');
 }
 
 .article-three {
+  padding-top: 4em;
   background-image: url('../images/article-bg-03.jpg');
 }
 
-.article-one,
-.article-two,
-.article-three {
-  background-size: cover;
-}

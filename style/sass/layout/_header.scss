@@ -20,11 +20,37 @@
   @include fontsize(48);
   @extend %serif;
   @extend %bold;
+  float: left;
   padding: 0.4em 0 0.2em 0;
   margin: 0;
   line-height: 0;
   a {
     color: $c-off-black;
     text-decoration: none;
+  }
+}
+
+.header-navigation {
+  float: right;
+}
+
+.header-navigation-list {
+  margin: 0;
+  padding: 0;
+}
+
+.header-navigation-item {
+  list-style-type: none;
+  float: left;
+  margin-right: 1em;
+}
+
+.header-navigation-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $c-dark-blue;
+  &:hover {
+    @include transition();
+    color: $c-blue;
   }
 }
