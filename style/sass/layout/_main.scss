@@ -1,0 +1,14 @@
+body {
+  @extend %sans-serif;
+  @include fontsize($base-font-size);
+  background-color: $c-white;
+  color: $c-black;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+html,
+body {
+  height: 100%;
+}

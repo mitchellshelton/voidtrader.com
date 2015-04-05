@@ -1,1 +1,3 @@
-// Void Trader javascript
+jQuery(document).ready(function ($) {
+
+});
