@@ -9,5 +9,12 @@ ga('send', 'pageview');
 
 // jQuery
 jQuery(document).ready(function ($) {
+  $('.navigation-toggle a').click(function() {
+    $('.header-navigation').toggleClass('hidden');
+    return false;
+  });
 
+  $('.header-navigation-link').click(function() {
+    $('.header-navigation').toggleClass('hidden');
+  });
 });
