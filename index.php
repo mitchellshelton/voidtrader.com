@@ -19,42 +19,52 @@
 
 <main id="main" class="main">
 
-  <div class="section">
-    <div class="section-content">
-      <h2 class="section-title">Section Title</h2>
-      <div class="section-text">
+  <aside id="sidebar" class="sidebar">
+    <div class="navigation">
+      <ul class="navigation-list">
+        <li class="navigation-item"><a class="navigation-link" href="#">Section One</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="#">Section Two</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="#">Section Three</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <article class="article-one article">
+    <div class="article-content">
+      <h2 class="article-title">Article One Title</h2>
+      <div class="article-text">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
         </p>
       </div>
     </div>
-  </div>
+  </article>
 
-  <div class="section-divider"></div>
+  <div class="article-divider"></div>
 
-  <div class="section">
-    <div class="section-content">
-      <h2 class="section-title">Section Title</h2>
-      <div class="section-text">
+  <article class="article-two article">
+    <div class="article-content">
+      <h2 class="article-title">Article Two Title</h2>
+      <div class="article-text">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
         </p>
       </div>
     </div>
-  </div>
+  </article>
 
-  <div class="section-divider"></div>
+  <div class="article-divider"></div>
 
-  <div class="section">
-    <div class="section-content">
-      <h2 class="section-title">Section Title</h2>
-      <div class="section-text">
+  <article class="article-three article">
+    <div class="article-content">
+      <h2 class="article-title">Article Three Title</h2>
+      <div class="article-text">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
         </p>
       </div>
     </div>
-  </div>
+  </article>
 
 </main>
 
