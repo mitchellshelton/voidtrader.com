@@ -17,16 +17,20 @@
 }
 
 .site-title {
-  @include fontsize(48);
+  @include fontsize(36);
   @extend %serif;
   @extend %bold;
   float: left;
-  padding: 0.4em 0 0.2em 0;
+  padding: 0;
   margin: 0;
-  line-height: 0;
+  line-height: 1;
   a {
     color: $c-off-black;
     text-decoration: none;
+    text-transform: uppercase;
+  }
+  @include breakpoint($bp-small) {
+    @include fontsize(48);
   }
 }
 
@@ -64,7 +68,7 @@
 
 .header-navigation-list {
   margin: 0;
-  padding: 0;
+  padding: 0.5em 0;
 }
 
 .header-navigation-item {
