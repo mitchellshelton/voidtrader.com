@@ -17,9 +17,10 @@
     <div class="navigation-toggle"><a href="#">Menu</a></div>
     <div class="header-navigation hidden">
       <ul class="header-navigation-list">
-        <li class="header-navigation-item"><a class="header-navigation-link" href="#home">Section One</a></li>
-        <li class="header-navigation-item"><a class="header-navigation-link" href="#article-two">Section Two</a></li>
-        <li class="header-navigation-item"><a class="header-navigation-link" href="#article-three">Section Three</a></li>
+        <li class="header-navigation-item"><a class="header-navigation-link" href="#home">Introduction</a></li>
+        <li class="header-navigation-item"><a class="header-navigation-link" href="#article-two">The Story</a></li>
+        <li class="header-navigation-item"><a class="header-navigation-link" href="#article-three">The Game</a></li>
+        <li class="header-navigation-item"><a class="header-navigation-link" href="#article-four">The Music</a></li>
       </ul>
     </div>
   </div>
@@ -29,21 +30,9 @@
 
   <article id="article-one" class="article-one article">
     <div class="article-content">
-      <h2 class="article-title">Article One Title</h2>
-      <div class="article-text">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-      </div>
+      <?php include('includes/introduction.php'); ?>
+      <h2 class="article-title"><?php print $title; ?></h2>
+      <div class="article-text"><?php print $text; ?></div>
     </div>
   </article>
 
@@ -51,12 +40,9 @@
 
   <article id="article-two" class="article-two article">
     <div class="article-content">
-      <h2 class="article-title">Article Two Title</h2>
-      <div class="article-text">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-      </div>
+      <?php include('includes/story.php'); ?>
+      <h2 class="article-title"><?php print $title; ?></h2>
+      <div class="article-text"><?php print $text; ?></div>
     </div>
   </article>
 
@@ -64,36 +50,19 @@
 
   <article id="article-three" class="article-three article">
     <div class="article-content">
-      <h2 class="article-title">Article Three Title</h2>
-      <div class="article-text">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet tempor ligula, sit amet fermentum massa. Aenean iaculis fringilla tortor, ut pretium orci tincidunt et. Praesent dictum justo at augue eleifend, vel luctus risus auctor. Mauris rutrum lectus ac erat lacinia interdum. Mauris condimentum purus ac lacus tempor, vitae hendrerit magna ultricies. Nam et posuere odio. Sed ac ultrices neque. Suspendisse potenti. Curabitur id arcu id ante auctor pellentesque. Nullam mollis elit eget nunc blandit, ac placerat lectus sollicitudin. Nullam vehicula venenatis blandit. Ut turpis orci, varius id dictum id, cursus id felis. Sed sodales vitae dolor eget eleifend.
-        </p>
-      </div>
+      <?php include('includes/game.php'); ?>
+      <h2 class="article-title"><?php print $title; ?></h2>
+      <div class="article-text"><?php print $text; ?></div>
+    </div>
+  </article>
+
+  <div class="article-divider"></div>
+
+  <article id="article-four" class="article-four article">
+    <div class="article-content">
+      <?php include('includes/music.php'); ?>
+      <h2 class="article-title"><?php print $title; ?></h2>
+      <div class="article-text"><?php print $text; ?></div>
     </div>
   </article>
 

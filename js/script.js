@@ -17,4 +17,14 @@ jQuery(document).ready(function ($) {
   $('.header-navigation-link').click(function() {
     $('.header-navigation').toggleClass('hidden');
   });
+
+  var parrallaxSpeed = 20;
+  $(window).on('scroll', function() {
+    backgroundChange = 'background-position: center ' + ((window.pageYOffset)/parrallaxSpeed) + 'px';
+    $('.article-one').attr('style', backgroundChange);
+    $('.article-two').attr('style', backgroundChange);
+    $('.article-three').attr('style', backgroundChange);
+    $('.article-four').attr('style', backgroundChange);
+  });
+
 });

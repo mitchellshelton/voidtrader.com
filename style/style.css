@@ -594,7 +594,8 @@ body {
 
 .article-one,
 .article-two,
-.article-three {
+.article-three,
+.article-four {
   transition: all 0.3s ease;
   background-size: cover;
   background-repeat: no-repeat;
@@ -604,11 +605,13 @@ body {
   @media (min-width: 48em) {
     .article-one,
     .article-two,
-    .article-three {
+    .article-three,
+    .article-four {
       padding: 3em; } }
   .no-mediaqueries .article-one, .no-mediaqueries
   .article-two, .no-mediaqueries
-  .article-three {
+  .article-three, .no-mediaqueries
+  .article-four {
     padding: 3em; }
 
 .article-one {
@@ -621,6 +624,10 @@ body {
 .article-three {
   padding-top: 6em;
   background-image: url("../images/article-bg-03.jpg"); }
+
+.article-four {
+  padding-top: 6em;
+  background-image: url("../images/article-bg-01.jpg"); }
 
 .footer {
   background-color: #efefef;

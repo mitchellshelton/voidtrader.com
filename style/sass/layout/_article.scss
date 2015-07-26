@@ -39,7 +39,8 @@
 
 .article-one,
 .article-two,
-.article-three {
+.article-three,
+.article-four {
   @include transition();
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,5 +64,10 @@
 .article-three {
   padding-top: 6em;
   background-image: url('../images/article-bg-03.jpg');
+}
+
+.article-four {
+  padding-top: 6em;
+  background-image: url('../images/article-bg-01.jpg');
 }
 
