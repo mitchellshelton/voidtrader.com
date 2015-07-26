@@ -561,6 +561,23 @@ body {
 #home {
   padding-top: 4em; }
 
+#article-one,
+#article-two,
+#article-three,
+#article-four {
+  padding-top: 8em; }
+  @media (min-width: 48em) {
+    #article-one,
+    #article-two,
+    #article-three,
+    #article-four {
+      padding-top: 4em; } }
+  .no-mediaqueries #article-one, .no-mediaqueries
+  #article-two, .no-mediaqueries
+  #article-three, .no-mediaqueries
+  #article-four {
+    padding-top: 4em; }
+
 .article {
   color: #ffffff; }
 
@@ -608,7 +625,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-attachment: fixed;
+  background-attachment: scroll;
   padding: 3em 0.5em; }
   @media (min-width: 48em) {
     .article-one,

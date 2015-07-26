@@ -16,3 +16,13 @@ body {
 #home {
   padding-top: 4em;
 }
+
+#article-one,
+#article-two,
+#article-three,
+#article-four {
+  padding-top: 8em;
+  @include breakpoint($bp-small) {
+    padding-top: 4em;
+  }
+}

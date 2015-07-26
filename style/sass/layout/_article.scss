@@ -45,7 +45,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-attachment: fixed;
+  background-attachment: scroll;
   padding: 3em 0.5em;
   @include breakpoint($bp-small) {
     padding: 3em;

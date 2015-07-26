@@ -20,7 +20,8 @@ jQuery(document).ready(function ($) {
 
   var parrallaxSpeed = 20;
   $(window).on('scroll', function() {
-    backgroundChange = 'background-position: center ' + ((window.pageYOffset)/parrallaxSpeed) + 'px';
+    positionChange = (window.pageYOffset)/parrallaxSpeed;
+    backgroundChange = 'background-position: center ' + positionChange + 'px; margin-top: -' + positionChange + 'px;';
     $('.article-one').attr('style', backgroundChange);
     $('.article-two').attr('style', backgroundChange);
     $('.article-three').attr('style', backgroundChange);
