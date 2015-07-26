@@ -17,7 +17,7 @@
 }
 
 .site-title {
-  @include fontsize(36);
+  @include fontsize(32);
   @extend %serif;
   @extend %bold;
   float: left;
